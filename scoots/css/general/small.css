@@ -53,3 +53,8 @@ nav ul li a{
 nav ul li.active a{
     color: white;
 }
+
+nav ul li a:hover {
+    background-color: #FFE299;
+    color: black;
+}
