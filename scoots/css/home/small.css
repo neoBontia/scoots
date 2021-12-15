@@ -19,7 +19,6 @@ main div.banner img {
 main div.banner {
     position: relative;
     text-align: center;
-    background-color: var(--main-accent);
 }
 
 main div.banner div.hook {
@@ -34,14 +33,59 @@ main div.banner div.hook {
 
 main div.banner div.link {
     padding: .5rem;
-    padding-bottom: .7rem;
+    padding-bottom: .8rem;
 }
 
-main div.banner div.link a{
-    display: block;
+main div.banner div.link a {
     text-decoration: none;
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 1.6rem;
-    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+main div.banner div.link button {
+    width: 13rem;
+    background-color: var(--main-color);
+    border: none;
+    padding: .9rem;
+    border-radius: 30px;
+    color: white;
+}
+
+main div.summary {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+main div.summary h2 {
+    padding: 1rem;
+    margin: 0rem;
+    font-family: var(--main-font);
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+main div.summary img {
+    width: 100%;
+}
+
+main div.summary div.text p {
+    margin: 0rem;
+    padding: 1rem;
+    font-family: var(--main-font);
+}
+
+main div.summary div.text button {
+    width: 13rem;
+    background-color: var(--main-color);
+    border: none;
+    padding: .9rem;
+    border-radius: 30px;
+    color: white;
+}
+
+main div.summary div.text a {
+    font-family: var(--main-font);
+    text-decoration: none;
+    color: white;
 }
