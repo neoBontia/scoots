@@ -60,6 +60,39 @@ nav ul.hide {
     display: none;
 }
 
+footer {
+    text-align: center;
+    background-color: rgb(253, 199, 199, 0.2);
+    padding: 1rem;
+}
+
+footer h4 {
+    margin-bottom: 0rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+footer div.social-media ul {
+    display: flex;
+    justify-content: center;
+    column-gap: .5rem;
+}
+
+footer img {
+    width: 40px;
+}
+
+footer div.contacts-container {
+    margin-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .3rem;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
