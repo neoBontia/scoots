@@ -111,6 +111,11 @@ footer div.copyright-footer {
     font-size: .9rem;
 }
 
+footer div.copyright-footer a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
