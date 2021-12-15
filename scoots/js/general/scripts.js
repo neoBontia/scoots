@@ -10,14 +10,6 @@ document.getElementById("latest-update").textContent = days[date.getDay()] + ", 
 // For the small nav menu
 function toggleMenu() {
     document.getElementById("navBar").classList.toggle("hide");
-
-    if (!document.getElementById("navBar").classList.contains("hide")) {
-        document.querySelector("nav").style.backgroundColor = "var(--main-color)";
-        document.querySelector("nav").style.borderRadius = "0px 0px 20px 20px";
-        document.querySelector("header").style.border = "none";
-    }
-    else {
-        document.querySelector("nav").style.backgroundColor = "white";
-        document.querySelector("header").style.borderBottom = "1px solid var(--main-color)";
-    }
 }
+
+window.onresize = () => { if (window.innerWidth > 760) document.getElementById("navBar").classList.remove('hide') };
