@@ -2,6 +2,8 @@
 
 :root {
     --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
 
     --main-font: 'Urbanist', sans-serif;
 }

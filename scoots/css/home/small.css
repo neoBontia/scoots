@@ -2,6 +2,8 @@
 
 :root {
     --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
 
     --main-font: 'Urbanist', sans-serif;
 }
@@ -12,4 +14,34 @@ main {
 
 main div.banner img {
     width: 100%;
+}
+
+main div.banner {
+    position: relative;
+    text-align: center;
+    background-color: var(--main-accent);
+}
+
+main div.banner div.hook {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+    font-size: .8rem;
+    text-align: right;
+}
+
+main div.banner div.link {
+    padding: .5rem;
+    padding-bottom: .7rem;
+}
+
+main div.banner div.link a{
+    display: block;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--secondary-color);
 }

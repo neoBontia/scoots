@@ -2,6 +2,8 @@
 
 :root {
     --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
 
     --main-font: 'Urbanist', sans-serif;
 }
@@ -32,7 +34,6 @@ header button {
 
 nav {
     background-color: var(--main-color);
-    border-radius: 0px 0px 20px 20px;
 }
 
 nav ul {
@@ -62,7 +63,7 @@ nav ul li.active a{
 }
 
 nav ul li a:hover {
-    background-color: #ffe29980;
+    background-color: #ffba0a7e;
     color: black;
     font-weight: 700;
 }
