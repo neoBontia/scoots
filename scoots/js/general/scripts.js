@@ -18,6 +18,6 @@ function toggleMenu() {
     }
     else {
         document.querySelector("nav").style.backgroundColor = "white";
-        document.querySelector("header").style.borderBottom = "1px solid rgba(0, 0, 0, .8)";
+        document.querySelector("header").style.borderBottom = "1px solid var(--main-color)";
     }
 }
